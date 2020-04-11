@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+CMD="$DIR/terminal-emulator-tests.sh"
+CLASS="de.topobyte.terminalemulation.tests.TestPalette"
+
+exec "$CMD" "$CLASS" "$@"
